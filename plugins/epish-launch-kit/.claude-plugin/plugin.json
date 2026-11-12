@@ -1,0 +1,23 @@
+{
+  "name": "epish-launch-kit",
+  "displayName": "EPISH Launch Kit",
+  "version": "0.4.0",
+  "description": "Take an idea to an EPISH campaign from Claude: copy, goal, rewards and FAQs, a hero plus 3–5 images and a 15–60 second film. After launch, see which ads and links bring backers. Needs a personal EPISH connection link.",
+  "author": {
+    "name": "EPISH",
+    "url": "https://epish.co"
+  },
+  "homepage": "https://epish.co/bring-your-ai",
+  "privacyPolicyUrl": "https://epish.co/privacy",
+  "icon": ".claude-plugin/icon.png",
+  "license": "UNLICENSED",
+  "userConfig": {
+    "connection_token": {
+      "title": "EPISH connection token",
+      "description": "The part of your EPISH Claude link between /api/connect/ and /mcp. Create the link at https://epish.co/bring-your-ai.",
+      "type": "string",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

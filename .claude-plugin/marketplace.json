@@ -1,0 +1,15 @@
+{
+  "name": "epish",
+  "owner": {"name": "EPISH", "url": "https://epish.co"},
+  "description": "EPISH plugins for Claude Code: turn a product idea into a crowdfunding campaign on epish.co.",
+  "plugins": [
+    {
+      "name": "epish-launch-kit",
+      "source": "./plugins/epish-launch-kit",
+      "description": "Take an idea to an EPISH campaign from Claude: copy, goal, rewards and FAQs, images and film, then a reviewed publish. After launch, see which ads and links bring backers.",
+      "homepage": "https://epish.co/bring-your-ai",
+      "category": "productivity",
+      "keywords": ["crowdfunding", "campaign", "kickstarter alternative", "product launch", "rewards", "mcp"]
+    }
+  ]
+}

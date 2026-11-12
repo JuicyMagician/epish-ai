@@ -1,0 +1,1 @@
+{"mcpServers":{"epish":{"type":"http","url":"https://epish.co/api/connect/mcp","headers":{"Authorization":"Bearer ${user_config.connection_token}"}}}}
